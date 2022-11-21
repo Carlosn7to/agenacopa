@@ -5,18 +5,43 @@
     <section>
       <SecondSection/>
     </section>
+    <section>
+      <ThirdSection/>
+    </section>
+    <section>
+      <FourSection/>
+    </section>
+    <section>
+      <FifthSection/>
+    </section>
+    <section>
+      <SixthSection/>
+    </section>
+    <footer>
+      <FooterComponent/>
+    </footer>
 </template>
 
 <script>
 
 import FirstSection from "@/components/FirstSection";
 import SecondSection from "@/components/SecondSection";
+import ThirdSection from "@/components/ThirdSection";
+import FourSection from "@/components/FourSection";
+import FifthSection from "@/components/FifthSection";
+import SixthSection from "@/components/SixthSection";
+import FooterComponent from "@/components/FooterComponent";
 
 export default {
   name: 'App',
   components: {
     FirstSection,
-    SecondSection
+    SecondSection,
+    ThirdSection,
+    FourSection,
+    FifthSection,
+    SixthSection,
+    FooterComponent
   }
 }
 </script>
