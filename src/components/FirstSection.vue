@@ -8,7 +8,12 @@
 
 <script>
 export default {
-  name: "FirstSection"
+  name: "FirstSection",
+  data () {
+    return  {
+      screen: null
+    }
+  }
 }
 </script>
 
@@ -52,6 +57,22 @@ export default {
 
     padding: 20px 35px;
     cursor: pointer;
+  }
+}
+
+
+@media (max-width: 360px) {
+
+  #section-1 {
+
+    img:nth-child(1) {
+      top: 7vh;
+      width: 70vw;
+    }
+
+    button {
+      padding: 10px 15px;
+    }
   }
 }
 

@@ -66,6 +66,12 @@ html {
   overflow-x: hidden;
 }
 
+@media (min-width: 360px) {
+  html {
+    font-size: 40%;
+  }
+}
+
 #app {
   width: 100vw;
   height: 100vh;
