@@ -66,7 +66,7 @@ html {
   overflow-x: hidden;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 360px) {
   html {
     font-size: 40%;
   }

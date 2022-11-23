@@ -77,4 +77,37 @@ export default {
     }
   }
 }
+
+@media (max-width: 360px) {
+  #section-3 {
+    gap: 3vh;
+
+    
+    h1 {
+      font-size: 1.6rem;
+    }
+
+    img {
+      width: 26vw;
+    }
+
+    .cards {
+      grid-template-columns: 27vw 27vw 27vw;
+    }
+
+    .tv-direct {
+      padding: 0 0 0 6%;
+
+      img:nth-child(1) {
+        width: 50vw;
+      }
+
+      img:nth-child(2) {
+        width: 35vw;
+      }
+    }
+
+
+  }
+}
 </style>

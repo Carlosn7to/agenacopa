@@ -85,4 +85,23 @@ export default {
   }
 }
 
+
+@media (max-width: 360px) {
+  #section-6 {
+    padding: 8vh 5vw;
+
+    .text {
+
+      .content {
+        width: 100%;
+      }
+    }
+
+    button {
+      padding: 5px 10px;
+      font-size: 1.4rem;
+    }
+  }
+}
+
 </style>

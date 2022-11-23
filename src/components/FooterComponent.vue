@@ -65,4 +65,10 @@ export default {
   }
 }
 
+
+@media (max-width: 360px) {
+  #footer {
+    height: initial;
+  }
+}
 </style>

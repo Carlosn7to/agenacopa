@@ -170,4 +170,55 @@ export default {
 
 }
 
+@media (max-width: 360px) {
+
+  #section-4 {
+    gap: 0;
+    button:nth-child(1) {
+      padding: 5px 10px;
+      font-size: 1.8rem;
+    }
+
+
+    .club {
+      padding: 0 5vw;
+      gap: 3vh;
+
+      img:nth-child(1) {
+        width: 40vw;
+      }
+
+      .divisor {
+        height: 3px;
+        div {
+          width: 30%;
+        }
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .partners {
+        grid-template-columns: 22vw repeat(3, 22vw);
+
+        .partner {
+
+          img {
+            width: 90%;
+          }
+          span {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      button {
+        padding: 5px 10px;
+      }
+    }
+  }
+
+}
+
 </style>

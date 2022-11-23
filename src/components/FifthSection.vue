@@ -103,4 +103,55 @@ export default {
   }
 }
 
+@media (max-width: 360px) {
+
+  #section-5 {
+    height: initial;
+    padding: 10vh 0;
+
+    form {
+      width: 50vw;
+      border-radius: 10px;
+      padding: 4vh 4vw 8vh 4vw;
+      top: 0;
+      left: 7%;
+
+      p {
+        font-size: 1.4rem;
+      }
+
+      .inputs {
+        gap: 3vh;
+
+        input[type=text] {
+          height: 10vh;
+          border-radius: 3px;
+          font-size: 1.6rem;
+          padding: 0 8px;
+        }
+
+        input[type=submit] {
+          padding: 5px 0;
+          font-size: 1.4rem;
+          border-radius: 3px;
+        }
+      }
+    }
+
+    .player-sport {
+
+      img:nth-child(1) {
+        display: none;
+      }
+
+      img:nth-child(2) {
+        width: 40vw;
+        right: 0;
+      }
+
+    }
+  }
+
+}
+
 </style>
